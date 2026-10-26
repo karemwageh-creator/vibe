@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "./dist-test",
+    "module": "CommonJS",
+    "moduleResolution": "node"
+  },
+  "include": ["src/data", "src/types", "src/store"]
+}
